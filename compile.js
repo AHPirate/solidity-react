@@ -3,10 +3,10 @@ const path = require('path');
 const fs = require('fs');
 const solc = require('solc');
 
-const resolve = path.resolve(__dirname,'contracts','Lottery.sol');
-const fileSync = fs.readFileSync(resolve,'utf-8');
+const resolve = path.resolve(__dirname, 'contracts', 'Lottery.sol');
+const fileSync = fs.readFileSync(resolve, 'utf-8');
 
-const result = solc.compile(fileSync,1);
+const result = solc.compile(fileSync, 1);
 
 console.log(result);
 

@@ -7,9 +7,7 @@ const web3 = new Web3(ganache.provider());
 let contract;
 let accounts;
 
-// beforEach(async () => {
-// //
-// // });
+
 
 
 describe('测试彩票合约', () => {
